@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="app_name">Flashlight Module (A2IGA)</string>
+    <string name="activity_settings">Настройки модуля</string>
+	<string name="flash_on">Фонарик включен!</string>
+    <string name="flash_off">Фонарик выключен!</string>
+    <string name="settings_not_available">Модуль не содержит настроек!</string>
+    
+</resources>
