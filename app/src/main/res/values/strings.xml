@@ -10,4 +10,6 @@
 	<string name="msg_flash_off">Фонарик выключен</string>
 	<string name="msg_no_settings">Модуль «Flashlight» не содержит настроек</string>
 	
+	<string name="pref_module_dev">Разработчик модуля</string>
+	
 </resources>
