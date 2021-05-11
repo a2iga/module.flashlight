@@ -6,19 +6,17 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceScreen;
 import ru.rx1310.a2iga.module.flashlight.R;
 
-public class ModuleSettingsActivity extends PreferenceActivity {
+public class ModuleSettings extends PreferenceActivity {
 
     protected void onCreate(Bundle b) {
         super.onCreate(b);
-
-        setTitle(R.string.activity_settings);
 
         PreferenceScreen p = getPreferenceManager().createPreferenceScreen(this);
         setPreferenceScreen(p);
 
         Preference a = new Preference(this);
         a.setEnabled(false);
-        a.setSummary(R.string.settings_not_available);
+        a.setSummary(R.string.msg_no_settings);
 
         
         p.addPreference(a);
