@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	
-	<string name="module_name">Flashlight Module for A2IGA</string>
+	<string name="module_name">Flashlight (A2IGA)</string>
 	<string name="module_settings">Настройки модуля</string>
 	<string name="module_dev">rx1310</string>
 	<string name="module_dev_link">https://rx1310.github.io</string>
