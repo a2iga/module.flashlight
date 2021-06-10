@@ -32,13 +32,13 @@ public class ModuleLaunch extends Activity {
 			
 			if (isFlashEnabled) {
 				cm.setTorchMode(fcID, false); 
-				changeState(false, getString(R.string.msg_flash_off));
+				changeState(false, getString(R.string.flash_off));
 			} else if (!isFlashEnabled) {
 				cm.setTorchMode(fcID, true); 
-				changeState(true, getString(R.string.msg_flash_on));
+				changeState(true, getString(R.string.flash_on));
 			} else {
 				cm.setTorchMode(fcID, false); 
-				changeState(false, getString(R.string.msg_flash_off));
+				changeState(false, getString(R.string.flash_off));
 			}
 			
 		} catch (CameraAccessException e) { 

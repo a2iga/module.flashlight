@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	
-	<string name="module_name">Flashlight (A2IGA)</string>
+	<string name="module_name">Flashlight Module for A2IGA</string>
 	<string name="module_settings">Настройки модуля</string>
 	<string name="module_dev">rx1310</string>
 	<string name="module_dev_link">https://rx1310.github.io</string>
 	
-	<string name="msg_flash_on">Фонарик включен</string>
-	<string name="msg_flash_off">Фонарик выключен</string>
-	<string name="msg_no_settings">Модуль «Flashlight» не содержит настроек</string>
+	<string name="flash_on">Фонарик включен!</string>
+	<string name="flash_off">Фонарик выключен!</string>
+	<string name="flash_unsupported">Устройство не поддерживается!</string>
+	<string name="flash_err">Неизвестная ошибка!</string>
 	
-	<string name="pref_module_dev">Разработчик модуля</string>
+	<string name="pref_category_about">О модуле</string>
+	<string name="pref_module_version">Версия модуля</string>
+	<string name="pref_module_dev">Разработчик</string>
+	<string name="pref_module_not_settings">Модуль «Flashlight» не содержит настроек.</string>
 	
 </resources>
